@@ -128,21 +128,16 @@ main .content .info .serie_info  .sinopse{
     margin-top:5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Responsivo */
+@media (max-width: 991px){
+    .logo{
+        text-align: center;
+    }
+    main .content .info .serie_info span,
+    main .content .info .serie_info .sinopse{
+        font-size: .9rem;
+    }
+    main .content .info .serie_info .sinopse{
+        width: 100%;
+    }
+}
